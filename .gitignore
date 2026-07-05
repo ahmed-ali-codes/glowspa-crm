@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+vendor/
+
+# Environment / config overrides
+.env
+.env.local
+*.local.php
+includes/config.php
+
+# Data directory (flat-file storage — do NOT commit real client data)
+data/appointments.json
+data/meta.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+error.log
+
+# OS thumbnails
+Thumbs.db
